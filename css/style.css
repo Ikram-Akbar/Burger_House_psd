@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.first-header {
+    align-items: end;
+    padding-top: 13px;
+}
+
+.delivery-message {
+    display: flex;
+    justify-content: end;
+}
+
+.delivery-message img {
+    width: 35px;
+    height: 30px;
+}
+
+.delivery-message p {
+    color: #3d2514;
+    margin-left: 11px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #3d2514;
+    font-size: 20px;
+    font-family: 'bebas_neue';
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 23px;
+}
+
+.nav-link {
+    padding: 0%;
+}
+
+.banner {
+    align-items: center;
+}
+
+.banner-content p {
+    font-size: 18px;
+    font-family: 'bebas_neue';
+    border: 2px dashed #3d2514;
+    letter-spacing: 2px;
+    padding: 0 10px;
+    width: 401px;
+}
+
+.banner-content h1 {
+    font-family: 'alfa_slab_one';
+    font-size: 100px;
+    font-weight: 400;
+    text-shadow: 2px 2px #fff;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+
+.banner-content h2 {
+    font-family: 'alfa_slab_one';
+    font-size: 50px;
+    font-weight: 400;
+    text-shadow: 2px 2px #fff;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+
+.banner-img {
+    background-image: url(../images/banner-burger.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 83vh;
+    position: relative;
+}
+
+.burger-price {
+    position: absolute;
+    bottom: 10%;
+    transform: translateY(-10%);
+    height: 120px;
+    width: 120px;
+    background: #bf2222;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px dashed #fff;
+    outline: 6px solid #bf2222;
+}
+
+.burger-price h1 {
+    text-align: center;
+    margin-top: 9px;
+    color: #fff;
+}
+
+.burger-price h2 {
+    color: #fff;
+}
+
+.featured-one {
+    position: relative;
+}
+
+.popular-content {
+    position: absolute;
+    top: 8%;
+    padding: 0 20px;
+}
+
+.popular-content p {
+    font-family: 'bebas_neue';
+    font-weight: bold;
+    color: #fff;
+    font-size: 25px;
+    margin: 0;
+}
+
+.popular-content h2 {
+    font-family: 'bebas_neue';
+    font-weight: bold;
+    color: #fff;
+    font-size: 35px;
+    margin-top: -9px;
+}
+
+.fun {
+    margin-top: 20px !important;
+}
+
+.taste {
+    line-height: 33px;
+    padding-top: 8px;
+}
+
+.chili {
+    margin-top: 9px;
+}
+
+.tasty-burger-content {
+    text-align: center;
+}
+
+.tasty-burger-content h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    background: #ffc045;
+    width: 160px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: 'bebas_neue';
+    font-weight: bold;
+}
+
+.tasty-burger-content h1 {
+    font-size: 45px;
+    font-family: 'alfa_slab_one';
+    color: #3d2514;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.tasty-burger-content p {
+    color: #3d2514;
+    padding: 10px 33px;
+    font-family: sans-serif;
+}
+
+.tasty-product {
+    text-align: center;
+}
+
+.tasty-product h1 {
+    font-family: 'bebas_neue';
+    color: #3d2514;
+    font-size: 35px;
+}
+
+.tasty-product p {
+    color: #3d2514;
+    font-family: sans-serif;
+}
+
+.product-two {
+    height: 232.02px;
+}
+
+.btn {
+
+    background: #bf2222;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'alfa_slab_one';
+    padding: 10px 20px 8px;
+}
+
+.Event-part h4 {
+    font-family: 'bebas_neue';
+    color: #3d2514;
+}
+
+.Event-part h1 {
+    font-family: 'alfa_slab_one';
+    color: #3d2514;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.Event-part p {
+    color: #3d2514;
+}
+
+.event-content {
+    position: relative;
+    padding: 20px 30px;
+    box-shadow: -10px 50px 129px rgb(0 0 0 / 24%);
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+}
+
+.owl-dots .owl-dot span {
+    display: block;
+    height: 10px;
+    width: 10px;
+    background: #dcdcdc;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.owl-dots .active span {
+    display: block;
+    height: 10px;
+    width: 10px;
+    background: #ffc045;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.Contact-us {
+    background-image: url(../images/contact-us-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.Contact-us h5 {
+    font-family: 'bebas_neue';
+    color: #3d2514;
+    font-size: 27px;
+}
+
+.Contact-us h1 {
+    font-family: 'alfa_slab_one';
+    text-transform: uppercase;
+    color: #3d2514;
+}
+
+.table-one {
+    margin-left: 150px;
+}
+
+.table-one input {
+    padding: 16px 10px;
+    border: 1px solid #3d3d3d;
+}
+
+.table-one input::placeholder {
+    color: #3d2514;
+    font-family: 'bebas_neue';
+}
+
+.table-two input {
+    padding: 16px 10px;
+    border: 1px solid #3d3d3d;
+}
+
+.table-two input::placeholder {
+    color: #3d2514;
+    font-family: 'bebas_neue';
+}
+
+.table-two input[type=submit] {
+    background: #bf2222;
+    font-family: 'alfa_slab_one';
+    font-size: 24px;
+    width: 100%;
+    padding: 12px 8px;
+    color: white;
+    text-transform: uppercase;
+    border: navajowhite;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border: 1px solid #3d3d3d;
+    border-color: #3d3d3d;
+    box-shadow: none;
+}
+
+footer {
+    background-image: url(../images/footer-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
+
+.footer-logo {
+    margin-top: 90px;
+}
+
+.footer-content {
+    color: white;
+}
+
+.footer-content p {
+    margin-top: 45px;
+}
+
+.contact-info {
+    padding-top: 59px;
+}
+
+.contact-info p {
+    margin-left: 273px;
+    margin-top: 16px;
+    font-family: 'bebas_neue';
+    letter-spacing: 1px;
+}
+
+.contact-info p i {
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.copywrite {
+    margin-top: 170px;
+}
+
+.copywrite p {
+    color: white;
+    font-family: 'bebas_neue';
+    font-size: 20px;
+}
+
+.social-logo ul {
+    display: flex;
+    justify-content: end;
+}
+
+.social-logo ul li {
+    list-style: none;
+    margin-left: 17px;
+    height: 45px;
+    width: 45px;
+    background: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.social-logo ul li a {
+    color: black;
+    font-size: 32px;
+}
